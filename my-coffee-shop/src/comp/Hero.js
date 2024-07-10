@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/RK21 - 1.png'
+
 
 function Hero() {
   return (
@@ -15,11 +15,11 @@ function Hero() {
             </div>
             <div className="profileimage">
                 <div className="circle">
-                    <img src={profile} alt="Axit Jetani" srcset="" className='pro-image' />
+                    
                 </div>
             </div>
     </div>
-  )
+  )  
 }
 
 export default Hero
