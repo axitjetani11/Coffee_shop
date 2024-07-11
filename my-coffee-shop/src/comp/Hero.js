@@ -1,5 +1,5 @@
 import React from 'react'
-
+import proimage from '../assets/RK21 - 1.png'
 
 function Hero() {
   return (
@@ -15,7 +15,7 @@ function Hero() {
             </div>
             <div className="profileimage">
                 <div className="circle">
-                    
+                  <img src={proimage} alt="Axit Jetani" className='proimage' />
                 </div>
             </div>
     </div>
