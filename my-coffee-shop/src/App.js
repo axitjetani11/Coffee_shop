@@ -6,7 +6,7 @@ import Hero from './comp/Hero';
 import Devider from './comp/Devider';
 import About from './comp/About';
 import Services from './comp/Services';
-
+import Projects from './comp/Projects';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Devider />
           <About />
           <Services />
+          <Projects />
     </div>
   );
 }

@@ -195,7 +195,7 @@
 }
 
 
-
+/* About Saction */
 
 
 
@@ -204,16 +204,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-
-  padding: 50px 100px 0 100px;
+  padding: 50px 200px 20px 200px;
   background-color: rgb(52, 8, 56);
   color: aqua;
 }
 
 
 .aboutme header {
-
   font-size: 30px;
   font-weight: bolder;
   color: #883aec;
@@ -227,28 +224,18 @@
   font-size: 20px;
 }
 
-
 .expriance {
-  display: flex;
-  align-items: center;
+  display: flex;  
   gap: 25px;
-
-
 }
 
-
 .expriance header {
-  
   color: #883aec;
   font-weight: bolder;
   font-size: 70px;
-  
-
   width: 150px;
   align-items: flex-start;
 }
-
-
 
 .expriance .about-info {
 
@@ -258,36 +245,87 @@
 }
 
 
-
-
 .skils {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
-  gap: 100px;
+  gap: 30px;
 }
 
 .lable {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: left;
-
+  background-color: #883aec;
+  width: 250px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  height: 200px;
 }
+
+.lable:hover {
+  background-color: #b485f1;
+  box-shadow: 10px 5px black;
+}
+
 
 .logo {
   width: 100px;
 }
 
 
-
+/* Servive Section */
 
 .service {
   display: flex;
+  flex-direction: column;
+  
+  border-top: 5px solid white;
   background-color: rgb(52, 8, 56);
-  padding: 20px 100px 20px 100px;
+  padding: 40px 200px 20px 200px;
   color: aliceblue;
 }
 
 
+.service header {
+  display: flex;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  justify-content: flex-start;
+  padding-left: 169px;
+}
+
+
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.info {
+  
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 0px 5px 5px rgb(14, 10, 5);
+  
+
+}
+
+.info:hover {
+  background-color: rgb(8, 55, 95);
+  color: #fcfaff;
+  box-shadow: 6px 6px brown;
+  transition: all 0.4s;
+}
+
+.ser-img {
+  width: 100px;
+}
