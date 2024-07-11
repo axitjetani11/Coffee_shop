@@ -329,3 +329,115 @@
 .ser-img {
   width: 100px;
 }
+
+
+
+/* Project Section */
+
+.project {
+  background-color: rgb(52, 8, 56);
+  color: #fcfaff;
+  display: flex;
+  flex-direction: column;
+  border-top: 5px solid white;
+  padding: 40px 200px 20px 200px;
+}
+
+
+.project header {
+  display: flex;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  justify-content: flex-start;
+  padding-left: 169px;
+}
+
+.project span {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 169px;
+  padding-top: 10px;
+
+}
+
+.project-link {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 150px 20px 150px;
+  gap: 20px;
+  
+}
+
+
+
+.projectinfo {
+  display: flex;
+  flex-direction: column;  
+  width: 300px;
+  border-radius: 10px; 
+  padding: 10px;
+  background-color: #1a1955;
+  margin: 30px;
+
+}
+
+.projectinfo .pro-image {
+  padding: 10px;
+}
+
+
+.projectinfo .pro-name {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.projectinfo .pro-ditals {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+
+.projectinfo .pro-link {
+  padding-top: 10px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.projectinfo .pro-link a {
+  width: 120px;
+  height: 30px;
+  
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+  padding-top: 7px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.projectinfo .pro-link a:nth-child(1) {
+  background-color: #b485f1;
+}
+
+.projectinfo .pro-link a:nth-child(2) {
+  border: 1px solid white;
+}
+
+.projectinfo .pro-link a:nth-child(1):hover {
+  background-color: #c1b0d6;
+  color: #0c0120;
+}
+
+.projectinfo .pro-link a:nth-child(2):hover {
+  border: 1px solid rgb(236, 104, 104);
+  background-color: brown;
+}
+
