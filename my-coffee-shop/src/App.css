@@ -38,7 +38,6 @@
   }
 }
 
-
 /* Navbar Componets Start */
 
 .navbar {
@@ -48,15 +47,10 @@
   align-items: center;
   height: 75px;
   border-bottom: 5px solid rgb(162, 77, 241);
-  padding: 0 100px 0 100px;
+  padding: 0 200px 0 200px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #181824;
-
 }
-
-
-
-
 
 .navbar .name a {
   cursor: pointer;
@@ -80,7 +74,6 @@
   gap: 100px;
 }
 
-
 .navbar .page-info a {
   cursor: pointer;
   text-decoration: none;
@@ -97,19 +90,14 @@
   border-radius: 2px;
 }
 
-
-/* Navbar Componets End */
-
-
 /* Hero Section */
-
 
 .hero {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px 0 100px;
+  padding: 0 200px 0 200px;
   background-color: rgb(52, 8, 56);
   color: azure;
   height: 600px;
@@ -121,7 +109,6 @@
   align-items: flex-start;
 
 }
-
 
 .hero .profile p:nth-child(1) {
   font-size: 30px;
@@ -165,7 +152,6 @@
   height: 600px;
 }
 
-
 .hero .profileimage .circle {
   position: relative;
   width: 650px;
@@ -187,18 +173,13 @@
   box-shadow: #282c34;
 }
 
-
 .dividar {
   height: 150px;
   background-color: #0c0120;
   position: relative;
 }
 
-
 /* About Saction */
-
-
-
 
 .aboutme {
   position: relative;
@@ -208,7 +189,6 @@
   background-color: rgb(52, 8, 56);
   color: aqua;
 }
-
 
 .aboutme header {
   font-size: 30px;
@@ -238,19 +218,15 @@
 }
 
 .expriance .about-info {
-
   text-align: left;
   font-size: 20px;
-
 }
-
 
 .skils {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 50px;
-  gap: 30px;
 }
 
 .lable {
@@ -270,24 +246,19 @@
   box-shadow: 10px 5px black;
 }
 
-
 .logo {
   width: 100px;
 }
-
 
 /* Servive Section */
 
 .service {
   display: flex;
   flex-direction: column;
-  
-  border-top: 5px solid white;
   background-color: rgb(52, 8, 56);
-  padding: 40px 200px 20px 200px;
+  padding: 50px 110px 20px 110px;
   color: aliceblue;
 }
-
 
 .service header {
   display: flex;
@@ -295,15 +266,13 @@
   font-weight: bolder;
   text-align: left;
   justify-content: flex-start;
-  padding-left: 169px;
+  padding-left: 100px;
 }
-
 
 .offer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
   margin-top: 30px;
 }
 
@@ -330,8 +299,6 @@
   width: 100px;
 }
 
-
-
 /* Project Section */
 
 .project {
@@ -339,10 +306,9 @@
   color: #fcfaff;
   display: flex;
   flex-direction: column;
-  border-top: 5px solid white;
-  padding: 40px 200px 20px 200px;
+  /* border-top: 5px solid white; */
+  padding: 40px 100px 20px 100px;
 }
-
 
 .project header {
   display: flex;
@@ -350,13 +316,13 @@
   font-weight: bolder;
   text-align: left;
   justify-content: flex-start;
-  padding-left: 169px;
+  padding-left: 110px;
 }
 
 .project span {
   text-align: left;
   font-size: 20px;
-  padding-left: 169px;
+  padding-left: 110px;
   padding-top: 10px;
 
 }
@@ -364,12 +330,11 @@
 .project-link {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 150px 20px 150px;
-  gap: 20px;
+  padding: 40px 100px 20px 100px;
+  justify-content: space-between;
+  
   
 }
-
-
 
 .projectinfo {
   display: flex;
@@ -378,14 +343,13 @@
   border-radius: 10px; 
   padding: 10px;
   background-color: #1a1955;
-  margin: 30px;
+  
 
 }
 
 .projectinfo .pro-image {
   padding: 10px;
 }
-
 
 .projectinfo .pro-name {
   display: flex;
@@ -402,7 +366,6 @@
   padding-left: 10px;
   padding-top: 5px;
 }
-
 
 .projectinfo .pro-link {
   padding-top: 10px;
@@ -441,3 +404,127 @@
   background-color: brown;
 }
 
+/* Conatct Page */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 200px 20px 200px;
+  background-color: rgb(52, 8, 56);
+  /* border-top: 3px solid white; */
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: rgb(52, 8, 56);
+  color: #feffff;
+}
+
+.header span:nth-child(1){
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+
+.header span:nth-child(2){
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  cursor: pointer;
+  padding: 2px;
+  width: 40px;
+}
+
+.form {
+  
+  row-gap: 20px;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.form span:nth-child(1) {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.taxtbox {
+  width: 510px;
+  height: 60px;
+  align-items: center;
+  outline: none;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  background: rgb(56, 52, 68);
+  color: white;
+  border: none;
+}
+
+.massages {
+  height: 100px;
+  width: 510px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background: rgb(56, 52, 68);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.taxtbox::placeholder {
+  font-size: 15px;
+  color: rgb(167, 126, 126);
+  
+}
+
+.form button {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #7562E0;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Sectopn */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(52, 8, 56);
+  color: rgb(128, 90, 90);
+  gap: 20px;
+  padding: 40px 200px 20px 200px;
+}
+
+.foo-link {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #61dafb;
+  
+}
+
+.foo-link a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #558585;
+}

@@ -41,7 +41,15 @@ function Projects() {
                 </div>
             </div>
              
-            
+            <div className="projectinfo">
+                <img src={proimage} alt="" srcset="" className='pro-image' />
+                <div className='pro-name' >Twinder</div>
+                <div className='pro-ditals'>A live geoogical Ap of finding tweets and teiiter users around you.</div>
+                <div className="pro-link">
+                    <a href='https://#' className='live'>View Live</a>
+                    <a href='https://#' className='gitrepo' >Github Repo</a>
+                </div>
+            </div>
         </div>
     
     </div>
